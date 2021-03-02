@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4db7391b75b148ee9b91cc2baf473ca, type: 3}
-  m_Name: "axolotl(\u0E2B\u0E21\u0E32\u0E19\u0E49\u0E33)"
+  m_Name: "\u0E28\u0E24\u0E38\u0E07\u0E04\u0E21\u0E31\u0E2A\u0E22\u0E32"
   m_EditorClassIdentifier: 
-  Word: "axolotl(\u0E2B\u0E21\u0E32\u0E19\u0E49\u0E33)"
+  Word: "\u0E28\u0E24\u0E38\u0E07\u0E04\u0E21\u0E31\u0E2A\u0E22\u0E32"
   Rarity: 3
-  Catagory: Animal
+  Catagory: Methology

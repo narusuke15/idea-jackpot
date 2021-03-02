@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4db7391b75b148ee9b91cc2baf473ca, type: 3}
-  m_Name: "\u0E40\u0E08\u0E25\u0E25\u0E14\u0E44\u0E02\u0E49"
+  m_Name: "\u0E22\u0E32\u0E1B\u0E0F\u0E34\u0E0A\u0E35\u0E27\u0E19\u0E30"
   m_EditorClassIdentifier: 
-  Word: "\u0E40\u0E08\u0E25\u0E25\u0E14\u0E44\u0E02\u0E49"
+  Word: "\u0E22\u0E32\u0E1B\u0E0F\u0E34\u0E0A\u0E35\u0E27\u0E19\u0E30"
   Rarity: 2
-  Catagory: Object
+  Catagory: Medicine
