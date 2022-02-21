@@ -1,0 +1,697 @@
+Unity Editor version:    2020.3.18f1 (a7d1c678663c)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/SoHandsomeMAC/Development/Projects/narusuke15/idea-jackpot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50752
+Successfully changed project path to: /Users/SoHandsomeMAC/Development/Projects/narusuke15/idea-jackpot
+/Users/SoHandsomeMAC/Development/Projects/narusuke15/idea-jackpot
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/SoHandsomeMAC/Development/Projects/narusuke15/idea-jackpot/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-21 15:15:03.276 Unity[3027:56685] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-21 15:15:03.277 Unity[3027:56685] Metal devices available: 1
+2022-02-21 15:15:03.277 Unity[3027:56685] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2022-02-21 15:15:03.288 Unity[3027:56685] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56027
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001411 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5474ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2357ms)
+		BeginReloadAssembly (338ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1903ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (661ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.003663 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.005116 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1969 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.7 MB.
+System memory in use after: 179.8 MB.
+
+Unloading 137 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 12.411938 ms (FindLiveObjects: 0.227651 ms CreateObjectMapping: 0.072121 ms MarkObjects: 10.675985 ms  DeleteObjects: 1.433071 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/NewWordMenu.cs
+  artifactKey: Guid(aa5538ab8fd4544f1965819ae3f0d098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewWordMenu.cs using Guid(aa5538ab8fd4544f1965819ae3f0d098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f34027c9ce791c4d4aefbeb0dc63d0e') in 0.434736 seconds 
+  Import took 0.439949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.037842 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(36d540c36f17d4965a5923e878ba0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(36d540c36f17d4965a5923e878ba0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f35866e9ae548119fbfb587b707f12') in 0.038831 seconds 
+  Import took 0.046323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712630 seconds.
+  path: Assets/Scenes/StandbyScene.unity
+  artifactKey: Guid(36995af15e2314e4ca062ae29b97de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StandbyScene.unity using Guid(36995af15e2314e4ca062ae29b97de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1a44f3b3b132fb6686d7bfbda8806d') in 0.011213 seconds 
+  Import took 0.021489 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2046ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (735ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1962 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.9 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 11.129817 ms (FindLiveObjects: 0.617612 ms CreateObjectMapping: 0.224906 ms MarkObjects: 10.245621 ms  DeleteObjects: 0.038330 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160.238377 seconds.
+  path: Assets/WordData/Cartography.asset
+  artifactKey: Guid(a0719543f724a4316a4dbff5dbcefc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Cartography.asset using Guid(a0719543f724a4316a4dbff5dbcefc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dbe98b993eaa61780f6455706115e6') in 1.561549 seconds 
+  Import took 1.570599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005672 seconds.
+  path: Assets/WordData/ย่างสามขุม.asset
+  artifactKey: Guid(00ba27dc88aa54ab5b6029a66ad0cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ย่างสามขุม.asset using Guid(00ba27dc88aa54ab5b6029a66ad0cea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4cd66e6718e4cbb19ef6c63c824cf3') in 0.010372 seconds 
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/WordData/ตี่จู่เอี้ย.asset
+  artifactKey: Guid(70cf313f4d53a47ca843031682cc0528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ตี่จู่เอี้ย.asset using Guid(70cf313f4d53a47ca843031682cc0528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7b1324cb2c1c561c74a1191b6c724b') in 0.024512 seconds 
+  Import took 0.032307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/WordData/ยูโฟเนียม.asset
+  artifactKey: Guid(74cee7a4ffdde4ddfb585370519257d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ยูโฟเนียม.asset using Guid(74cee7a4ffdde4ddfb585370519257d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6559ca95490d62f8da87191090dba515') in 0.006423 seconds 
+  Import took 0.013361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/WordData/ยาปฏิชีวนะ.asset
+  artifactKey: Guid(6e19ef65b68eb4ea28547724258f3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ยาปฏิชีวนะ.asset using Guid(6e19ef65b68eb4ea28547724258f3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9040ded9af277a8976833fea56fc114c') in 0.005678 seconds 
+  Import took 0.014554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002141 seconds.
+  path: Assets/WordData/หักหลัง.asset
+  artifactKey: Guid(1acd4b8001688441bae300fa163346ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/หักหลัง.asset using Guid(1acd4b8001688441bae300fa163346ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2339133583cd14af60ed2b33ec2c3435') in 0.005171 seconds 
+  Import took 0.016283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/WordData/กลองมโหระทึก.asset
+  artifactKey: Guid(1986c259830564092afe6779e11a799d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/กลองมโหระทึก.asset using Guid(1986c259830564092afe6779e11a799d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d2748e61a986db121c023378d4b0c4') in 0.009433 seconds 
+  Import took 0.018559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/WordData/กลศาสตร์ควอนตัม.asset
+  artifactKey: Guid(b30645c2d9de245a3bbb95193a27c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/กลศาสตร์ควอนตัม.asset using Guid(b30645c2d9de245a3bbb95193a27c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120cd030a39fd72ee0786145aeb66234') in 0.008647 seconds 
+  Import took 0.016005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001930 seconds.
+  path: Assets/WordData/ฤาษีบดยา.asset
+  artifactKey: Guid(1dfdec1fa61e540d5b2eb68879bbe63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ฤาษีบดยา.asset using Guid(1dfdec1fa61e540d5b2eb68879bbe63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597a1420dabf51680763e8e7d3ca050b') in 0.006975 seconds 
+  Import took 0.016418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/WordData/marsupial.asset
+  artifactKey: Guid(8b6e883831c4b4e82a670a02730a5d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/marsupial.asset using Guid(8b6e883831c4b4e82a670a02730a5d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88aa97491ebf10a52ad76c7d6074591') in 0.022957 seconds 
+  Import took 0.030383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/WordData/Pulsar.asset
+  artifactKey: Guid(57e034a427ca24f9399f96fc28897be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Pulsar.asset using Guid(57e034a427ca24f9399f96fc28897be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07e499015bbf95acc1bfaf7805671dc') in 0.011068 seconds 
+  Import took 0.016846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/WordData/ผลิตภัณฑ์มวลรวมในประเทศ.asset
+  artifactKey: Guid(515968bfebe1a43b2b6849a4e2fe9179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ผลิตภัณฑ์มวลรวมในประเทศ.asset using Guid(515968bfebe1a43b2b6849a4e2fe9179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095900031c172587eba48530af737f69') in 0.010778 seconds 
+  Import took 0.014969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/WordData/ความเคารพ.asset
+  artifactKey: Guid(6c652e71d156e4408b72310ec05e7405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ความเคารพ.asset using Guid(6c652e71d156e4408b72310ec05e7405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3fd7a2769e36c635cad0e5db231a05') in 0.007871 seconds 
+  Import took 0.012715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/WordData/ผีร่ม.asset
+  artifactKey: Guid(ee36ead637b9c4e6d8e18e65594e5b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ผีร่ม.asset using Guid(ee36ead637b9c4e6d8e18e65594e5b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d396e0edfcb14fbabb8a27b14b6c7c') in 0.006006 seconds 
+  Import took 0.013291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010438 seconds.
+  path: Assets/WordData/ยันต์โป๊ยข่วย.asset
+  artifactKey: Guid(4e4ebbcf67c344224a7b8176ac618434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ยันต์โป๊ยข่วย.asset using Guid(4e4ebbcf67c344224a7b8176ac618434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf37ca748938435b4eca8f06b548373') in 0.005559 seconds 
+  Import took 0.021894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001483 seconds.
+  path: Assets/WordData/เทพีเสรีภาพ.asset
+  artifactKey: Guid(5a80cf97b93e24a01a21c7ca20f246ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/เทพีเสรีภาพ.asset using Guid(5a80cf97b93e24a01a21c7ca20f246ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b065658bf9dc724395c5a9892fbe34') in 0.006803 seconds 
+  Import took 0.015313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/WordData/คนป่า.asset
+  artifactKey: Guid(959ef04aa65614df9bb490ae351e0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/คนป่า.asset using Guid(959ef04aa65614df9bb490ae351e0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063751dd3265d78527f42b0f05576c5b') in 0.005740 seconds 
+  Import took 0.009816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/WordData/งานบวช.asset
+  artifactKey: Guid(8aaa9d7e1205245b49b610daad970438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/งานบวช.asset using Guid(8aaa9d7e1205245b49b610daad970438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d6f4dfe57ac7db8ae3a1d046ca508f') in 0.019548 seconds 
+  Import took 0.033397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001614 seconds.
+  path: Assets/WordData/Poltergeist.asset
+  artifactKey: Guid(623c30ce6e837402a9139efea9539ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Poltergeist.asset using Guid(623c30ce6e837402a9139efea9539ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80197f46b7a86fa22bcb968f2dbfe71') in 0.013808 seconds 
+  Import took 0.027945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002314 seconds.
+  path: Assets/WordData/งูแมวเซา.asset
+  artifactKey: Guid(8707b9ed31702456a828c0ff00d4bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/งูแมวเซา.asset using Guid(8707b9ed31702456a828c0ff00d4bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd240972cf814003bf9ad9def6f8a00f9') in 0.007428 seconds 
+  Import took 0.021763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/WordData/บำบัด.asset
+  artifactKey: Guid(927fafa4f661847288a962b278f58863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/บำบัด.asset using Guid(927fafa4f661847288a962b278f58863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd3ee147d48bfb665de47dab674adf4') in 0.014330 seconds 
+  Import took 0.019956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/WordData/ฟอสซิล.asset
+  artifactKey: Guid(7bd13c239c9ac4006a9b2981ed041881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ฟอสซิล.asset using Guid(7bd13c239c9ac4006a9b2981ed041881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd5816f8faf8bd831031bad8815b510') in 0.008283 seconds 
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001971 seconds.
+  path: Assets/WordData/เรือดำน้ำ.asset
+  artifactKey: Guid(ee98ae8dbcad3430ba1dabda7e21bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/เรือดำน้ำ.asset using Guid(ee98ae8dbcad3430ba1dabda7e21bdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c2d16c7e95ce6b2f4742ba43adff64') in 0.006507 seconds 
+  Import took 0.021241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/WordData/จำนอง.asset
+  artifactKey: Guid(ebfa0aee6e60945ada9df85aadd7d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/จำนอง.asset using Guid(ebfa0aee6e60945ada9df85aadd7d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b897d3f320918efc42dd1731d9a2d72') in 0.006919 seconds 
+  Import took 0.013228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/WordData/ชมพูทวีป.asset
+  artifactKey: Guid(f5b6432c954014c86a6a8080d8e85467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ชมพูทวีป.asset using Guid(f5b6432c954014c86a6a8080d8e85467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e9a87aa798c8465fab91f89c81c4d4') in 0.009522 seconds 
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/WordData/สิงสู่.asset
+  artifactKey: Guid(84f1aa12176ed4af18373c7b8edf1a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/สิงสู่.asset using Guid(84f1aa12176ed4af18373c7b8edf1a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ff721e678f8ae298bb1ae0f5a22617') in 0.006069 seconds 
+  Import took 0.010878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/WordData/ตุตันคาเมน.asset
+  artifactKey: Guid(f05a98445de644ce38ca855f174d0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ตุตันคาเมน.asset using Guid(f05a98445de644ce38ca855f174d0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1629c0fd0c281713a3cba37e2f7af4') in 0.023429 seconds 
+  Import took 0.030238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/WordData/ดาวซิ่ง.asset
+  artifactKey: Guid(5ad5bf21f40c14b73bd2ffd86f741a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ดาวซิ่ง.asset using Guid(5ad5bf21f40c14b73bd2ffd86f741a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f492fc2fbc5064bf001996d89c2cf4b3') in 0.014185 seconds 
+  Import took 0.021142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002043 seconds.
+  path: Assets/WordData/สนธิสัญญาเบาว์ริง.asset
+  artifactKey: Guid(e3e79d7b4af234d0f83bc8d9575fcfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/สนธิสัญญาเบาว์ริง.asset using Guid(e3e79d7b4af234d0f83bc8d9575fcfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29c653f7da13ae53b4963fd19ab5010') in 0.008725 seconds 
+  Import took 0.016893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003185 seconds.
+  path: Assets/WordData/หนังตะลุง.asset
+  artifactKey: Guid(e9286dea80cc848baabef8f730419088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/หนังตะลุง.asset using Guid(e9286dea80cc848baabef8f730419088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10767b2819e218aee853daeae8c44238') in 0.032893 seconds 
+  Import took 0.047449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/WordData/โอลิมปิิก.asset
+  artifactKey: Guid(40083ab5f74c64802ad5ab86968f745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/โอลิมปิิก.asset using Guid(40083ab5f74c64802ad5ab86968f745f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fe94453b702f65c3294d14d031f724') in 0.028437 seconds 
+  Import took 0.035794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/WordData/เรือนจำ.asset
+  artifactKey: Guid(7054f217171b3471dab3b551ce104bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/เรือนจำ.asset using Guid(7054f217171b3471dab3b551ce104bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914f8f3e5c0dca8527805f4ca3acf9cd') in 0.019260 seconds 
+  Import took 0.041390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007122 seconds.
+  path: Assets/WordData/อิจฉาริษยา.asset
+  artifactKey: Guid(c03b6ee7d76f045fdb88bbf9d53abb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/อิจฉาริษยา.asset using Guid(c03b6ee7d76f045fdb88bbf9d53abb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91e25207a008ec572e1306ea71a2ef0') in 0.010181 seconds 
+  Import took 0.024546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001178 seconds.
+  path: Assets/WordData/กเฬวราก.asset
+  artifactKey: Guid(52ee27d0f4d364a07ba0f826d666fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/กเฬวราก.asset using Guid(52ee27d0f4d364a07ba0f826d666fa6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7d2e390815cff60f6c48a654e89fd') in 0.008110 seconds 
+  Import took 0.015576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/WordData/เลขฐาน16.asset
+  artifactKey: Guid(3fbbdf79128ba4a868ff579223e08a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/เลขฐาน16.asset using Guid(3fbbdf79128ba4a868ff579223e08a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79792001fa83b5eb5c1fcdc1aa664d7d') in 0.019804 seconds 
+  Import took 0.029649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/WordData/Tardigrade(หมีน้ำ) 1.asset
+  artifactKey: Guid(9fd1f6556e3524114bfc7d1f5af08454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Tardigrade(หมีน้ำ) 1.asset using Guid(9fd1f6556e3524114bfc7d1f5af08454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d23234ac0855e520462ca39f50bcf2') in 0.009572 seconds 
+  Import took 0.022228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001689 seconds.
+  path: Assets/WordData/ผีกระหัง.asset
+  artifactKey: Guid(6c639c33a6ee04e17a58825bb2c6a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ผีกระหัง.asset using Guid(6c639c33a6ee04e17a58825bb2c6a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b016d6456249c2f6362d0bafb1d38dad') in 0.033195 seconds 
+  Import took 0.088304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000905 seconds.
+  path: Assets/WordData/เรือหางยาว.asset
+  artifactKey: Guid(3c44ad77b347d401d97ddb32020a5235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/เรือหางยาว.asset using Guid(3c44ad77b347d401d97ddb32020a5235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8703715e65c4a4897debc9527acc0c7') in 0.044679 seconds 
+  Import took 0.060690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/WordData/ศฤุงคมัสยา.asset
+  artifactKey: Guid(8c20564f483474d40b9aec07d8db112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/ศฤุงคมัสยา.asset using Guid(8c20564f483474d40b9aec07d8db112b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9b2de89076538493d1c27ce63ec63') in 0.014732 seconds 
+  Import took 0.026880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393084 seconds.
+  path: Assets/Fonts/ZF#2ndPixelus.ttf
+  artifactKey: Guid(81b8e0cd1a8d84992b9336b49af87004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ZF#2ndPixelus.ttf using Guid(81b8e0cd1a8d84992b9336b49af87004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611a81c1a39d60e876e1bcae2e045f98') in 2.643828 seconds 
+  Import took 2.648443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005198 seconds.
+  path: Assets/Prefabs/Effect
+  artifactKey: Guid(a742eff6f03cc4e3a8c66ba7d3448d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect using Guid(a742eff6f03cc4e3a8c66ba7d3448d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ed82724cb157713d90b30d5a34530c') in 0.001894 seconds 
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394360 seconds.
+  path: Assets/Prefabs/OpenSign
+  artifactKey: Guid(5646fbd559ce94f88834d9e7c2286450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OpenSign using Guid(5646fbd559ce94f88834d9e7c2286450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ce742af48af99f8dc0b72555d79fd') in 0.004342 seconds 
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093671 seconds.
+  path: Assets/Prefabs/OpenSign
+  artifactKey: Guid(5646fbd559ce94f88834d9e7c2286450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OpenSign using Guid(5646fbd559ce94f88834d9e7c2286450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ce742af48af99f8dc0b72555d79fd') in 0.007885 seconds 
+  Import took 0.023994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286727 seconds.
+  path: Assets/Prefabs/Sign
+  artifactKey: Guid(7aa70113f0f3843f88f2a479e1b98dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sign using Guid(7aa70113f0f3843f88f2a479e1b98dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93138a844a64e5e53c524b3e23ba1980') in 0.002389 seconds 
+  Import took 0.014479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104132 seconds.
+  path: Assets/Prefabs/Sign/Sign.prefab
+  artifactKey: Guid(904bc18f7311c4fe58191e05c358bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sign/Sign.prefab using Guid(904bc18f7311c4fe58191e05c358bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ff8e61533713b0e0c8aaca1e4a9cb') in 0.483281 seconds 
+  Import took 0.489096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204251 seconds.
+  path: Assets/Prefabs/Sign/Sign.cs
+  artifactKey: Guid(4acdf582d67134b1190568160f73252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sign/Sign.cs using Guid(4acdf582d67134b1190568160f73252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320f625bfe2b4af40d672250f299a67a') in 0.010902 seconds 
+  Import took 0.016438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.546169 seconds.
+  path: Assets/Prefabs/VolumeCanvas/VolumeCanvas.prefab
+  artifactKey: Guid(22a8e001aa0b6461c9d9b20522d33c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/VolumeCanvas/VolumeCanvas.prefab using Guid(22a8e001aa0b6461c9d9b20522d33c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0ec61fc10c680b9bece67d075068d0') in 0.008559 seconds 
+  Import took 0.016158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.023449 seconds.
+  path: Assets/Prefabs/OpenSign/OpenSignCanvas.prefab
+  artifactKey: Guid(ea5269653e360459dbf2ce13582fa8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OpenSign/OpenSignCanvas.prefab using Guid(ea5269653e360459dbf2ce13582fa8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88e23f851a1a4d1a1a6a8987a09c7b4') in 0.011938 seconds 
+  Import took 0.020053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.862928 seconds.
+  path: Assets/Prefabs/Effect/BaseExplosion.prefab
+  artifactKey: Guid(70acada224e0c47d5bed223ca797a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect/BaseExplosion.prefab using Guid(70acada224e0c47d5bed223ca797a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a47d2ea65bd108d8dc1a305469cc2a') in 0.032875 seconds 
+  Import took 0.037329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/Effect/GoldenExplosion 1.prefab
+  artifactKey: Guid(0ebead85a4bb347d8a0455ac0986b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect/GoldenExplosion 1.prefab using Guid(0ebead85a4bb347d8a0455ac0986b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabdf0329a2aeb95651fbb486d537e40') in 0.017786 seconds 
+  Import took 0.025321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002123 seconds.
+  path: Assets/Prefabs/Effect/SilverExplosion 1.prefab
+  artifactKey: Guid(50daaab3a67b04f609fd99ee9891afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect/SilverExplosion 1.prefab using Guid(50daaab3a67b04f609fd99ee9891afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2ade3b07d518471156c49c82aaa5ee') in 0.040924 seconds 
+  Import took 0.053205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Prefabs/Effect/BronzeExplosion.prefab
+  artifactKey: Guid(d25ad8ffa3b004295a93e92c34d21ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect/BronzeExplosion.prefab using Guid(d25ad8ffa3b004295a93e92c34d21ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6608ee91164e030ab9e48bfe63a7a739') in 0.025726 seconds 
+  Import took 0.038118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004960 seconds.
+  path: Assets/Prefabs/Effect/SilverExplosion 1.prefab
+  artifactKey: Guid(50daaab3a67b04f609fd99ee9891afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effect/SilverExplosion 1.prefab using Guid(50daaab3a67b04f609fd99ee9891afc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2ade3b07d518471156c49c82aaa5ee') in 0.023067 seconds 
+  Import took 0.034163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.251529 seconds.
+  path: Assets/WordData/Old
+  artifactKey: Guid(49e37650479b4491a8681ebed5a29e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Old using Guid(49e37650479b4491a8681ebed5a29e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86a1b96f8eaf4598d80dce851da601d') in 0.008495 seconds 
+  Import took 0.018129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.691953 seconds.
+  path: Assets/WordData/Old/มนต์ดำ.asset
+  artifactKey: Guid(ceb3c9cdc24c04035a3d4c2ede48273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Old/มนต์ดำ.asset using Guid(ceb3c9cdc24c04035a3d4c2ede48273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5497a7ff795e34f938a10612911836') in 0.007471 seconds 
+  Import took 0.013041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/WordData/Old/อีแซว.asset
+  artifactKey: Guid(e737d81ca97b742478affa82b5b1a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Old/อีแซว.asset using Guid(e737d81ca97b742478affa82b5b1a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8820a13a3138ce1566d4765c8e99ba5') in 0.008702 seconds 
+  Import took 0.018928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002983 seconds.
+  path: Assets/WordData/Old/มนต์ดำ.asset
+  artifactKey: Guid(ceb3c9cdc24c04035a3d4c2ede48273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Old/มนต์ดำ.asset using Guid(ceb3c9cdc24c04035a3d4c2ede48273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5497a7ff795e34f938a10612911836') in 0.013435 seconds 
+  Import took 0.028944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/WordData/Old/ศรพรหมมาศ.asset
+  artifactKey: Guid(246e6b27f086d435198b0556aa7fc638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WordData/Old/ศรพรหมมาศ.asset using Guid(246e6b27f086d435198b0556aa7fc638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a4c3dbdec178464dad5bc9ca542591') in 0.006117 seconds 
+  Import took 0.017024 seconds .
+
