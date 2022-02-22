@@ -8,6 +8,7 @@ public class OpenSignManager : MonoBehaviour
 
     public Text WordText, IndexText;
     public GameObject R, SR, SSR;
+    public GameObject EffectR, EffectSR, EffectSSR;
     public GameObject RSound;
 
     private WordData wordData;
@@ -29,6 +30,12 @@ public class OpenSignManager : MonoBehaviour
     private void OnDisable()
     {
         BGM.volume = 1f;
+    }
+
+    public void ClosePopup()
+    {
+        BGM.volume = 1f;
+        Destroy(gameObject);
     }
 
     public void SetWord(WordData wordData, int index)

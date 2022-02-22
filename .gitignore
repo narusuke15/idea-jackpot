@@ -9,6 +9,5 @@
 *.sln
 *.apk
 /.project
-/ProjectSettings
 /.vscode
 
