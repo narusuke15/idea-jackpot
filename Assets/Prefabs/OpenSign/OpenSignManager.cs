@@ -62,7 +62,7 @@ public class OpenSignManager : MonoBehaviour
         }
 
         //Set text
-        gameController.AddConceptWord(wordData.Word);
+        gameController.AddConceptWord(wordData);
     }
 
     public void PlayOpendSound()
