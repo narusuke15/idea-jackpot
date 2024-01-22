@@ -1,3 +1,4 @@
 # idea-jackpot
 
-interactive game design random concept tool
+โปรเจคที่เขียนเพื่อนำไปใช้ในวิชา Game Design
+โดยให้นักศึกษาช่วยกันเปิดแผ่นป้าย และเลือกคำไปคิดเป็น Concept เกม
